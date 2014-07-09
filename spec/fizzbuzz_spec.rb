@@ -17,5 +17,9 @@ describe 'FizzBuzz' do
   it 'knows 1 is not divisible by 5' do
     expect(is_divisible_by_five(1)).to be false
   end
-  
+
+  it 'says 1 for 1' do
+    expect(fizzbuzz(1)).to eq 1
+  end
+
 end
