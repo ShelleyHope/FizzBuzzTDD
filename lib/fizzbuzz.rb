@@ -5,3 +5,8 @@ end
 def is_divisible_by_five(number)
   number % 5 == 0
 end
+
+def fizzbuzz(number)
+  number
+  
+end
