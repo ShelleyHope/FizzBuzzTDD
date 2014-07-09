@@ -30,4 +30,8 @@ describe 'FizzBuzz' do
     expect(fizzbuzz(5)).to eq "Buzz"
   end
 
+  it "says 'FizzBuzz' for 15" do
+    expect(fizzbuzz(15)).to eq "FizzBuzz"
+  end
+  
 end
